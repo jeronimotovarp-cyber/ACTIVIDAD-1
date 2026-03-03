@@ -1,0 +1,43 @@
+body {
+font-family: Arial, sans-serif;
+background-color: #f4f6f9;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin: 0;
+}
+
+/* Estilo de la tarjeta */
+.tarjeta {
+background-color: white;
+padding: 20px;
+width: 300px;
+border-radius: 12px;
+box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+transition: transform 0.2s ease;
+}
+
+/* Efecto hover */
+.tarjeta:hover {
+transform: scale(1.05);
+}
+
+/* Título del producto */
+.tarjeta h2 {
+margin-bottom: 10px;
+color: #2c3e50;
+}
+
+/* Texto general */
+.tarjeta p {
+margin: 6px 0;
+color: #555;
+font-size: 14px;
+}
+
+/* Precio más destacado */
+.tarjeta p:first-of-type {
+font-weight: bold;
+color: #27ae60;
+}
